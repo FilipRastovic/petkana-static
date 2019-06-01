@@ -1,0 +1,55 @@
+.forma {
+	margin-top: 100px;
+	padding: 140px 0;
+	background: url(/assets/img/Slike/form.jpg) no-repeat;
+	background-size: cover;
+
+	h3 {
+		font-size: 32px;
+		font-weight: 400;
+		margin-bottom: 30px;
+	}
+	
+	label {
+		font-size: 16px;
+		color: #000000a1;
+		font-weight: 400;
+		margin-bottom: 0;
+	}
+
+	input {
+		border-radius: 0;
+		margin-top: 0;
+		border-bottom: 1px solid #5F7237;
+		&::placeholder {
+			color: rgb(177, 177, 177);
+		}
+	}
+
+	.container {
+		position: relative;
+		background: hsla(0, 0%, 100%, .3);
+		overflow: hidden;
+		padding: 60px 30px;
+		border-radius: 15px;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			filter: blur( 20px );
+			margin: -30px;
+		}
+	}
+
+	.form-wrapper {
+		background: #E7EEDF;
+		padding: 50px 33px;
+		border-radius: 15px;
+		box-shadow: 0 3px 6px #8f8f8f;
+		border: 1px solid rgba(95, 114, 55, 0.461)
+	}
+}

@@ -1,0 +1,57 @@
+.header {
+	padding-top: 150px;
+	text-align: center;
+	z-index: -1;
+
+	@media (min-width: 768px) {
+		padding-top: 180px;
+		text-align: left;
+	}
+
+	@media (min-width: 990px) {
+		padding-top: 50px;
+	}
+}
+
+.aboutusimg {
+	background-image: url(/assets/img/abous.jpg );
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	margin-bottom: 0;
+
+	min-height: 600px;
+
+	@media (min-width: 990px) {
+		min-height: 750px;
+	}
+
+	@media (max-width: 768px) {
+		.container {
+			background: hsla(0, 0%, 100%, .3);
+		}
+	}
+}
+
+.little-products {
+	position: absolute;
+	width: 250px;
+	height: auto;
+	bottom: 0;
+
+	@media (max-width: 768px) {
+		display: none;
+	}
+}
+
+.first {
+	right: 120px;
+}
+
+.second {
+	right: 320px;
+}
+
+.third {
+	right: 550px;
+}

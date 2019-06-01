@@ -1,0 +1,33 @@
+footer {
+	background-color: #303030;
+	padding: 80px 0;
+
+	ul {
+		padding: 0;
+		list-style-type: none;
+	}
+
+	ul li,
+	h5 {
+		font-size: $footer-copy-font-size;
+		color: #E7EEDF;
+		a {
+			color: inherit;
+		}
+	}
+	
+	.instagram-icon {
+		width: 53px;
+		height: 53px;
+	}
+
+	.petkana-logo--footer {
+		width: 96px;
+		height: 138px;
+	}
+
+	.konopa-logo--footer {
+		width: 221px;
+		height: 85px;
+	}
+}

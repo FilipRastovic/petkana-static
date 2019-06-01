@@ -1,0 +1,61 @@
+@font-face {
+	font-family: Qanelas, 'sans-serif';
+	src: url( '../fonts/qanelas/Qanelas-Regular.otf' ) format( 'opentype' );
+}
+
+@font-face {
+    font-family: Qanelas, 'sans-serif';
+    font-weight: bold;
+    src: url( '../fonts/qanelas/Qanelas-Bold.otf' ) format( 'opentype' );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul li {
+	@include qanelas;
+	color: $green-text-color;
+}
+
+p {
+	font-family: Qanelas;
+	font-size: $body-copy-font-size;
+	line-height: $body-copy-font-line-height;
+}
+
+.subtitle {
+	max-width: 660px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 40px;
+	
+	@media (min-width: 768px) {
+		font-size: 60px;
+	}
+}
+
+h2 {
+	font-weight: 800;
+	font-size: 28px;
+
+	@media (min-width: 768px) {
+		font-size: 48px;
+	}
+}
+
+h3,
+h4,
+h5 {
+	font-weight: 700;
+	font-size: 18px;
+
+	@media (min-width: 768px) {
+		font-size: 32px;
+	}
+}

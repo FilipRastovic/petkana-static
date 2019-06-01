@@ -1,0 +1,21 @@
+.section-wave {
+	position: relative;
+	background-image: url(/assets/img/wave-section.svg);
+	width: 100%;
+	background-size: cover;
+	text-align: center;
+	min-height: 200px;
+
+	.container {
+		padding-top: 100px;
+	}
+
+	@media (min-width: 990px) {
+		min-height: 880px;
+		margin: 100px 0;
+		
+		.container {
+			padding-top: 160px;
+		}
+	}
+}

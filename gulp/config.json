@@ -1,0 +1,34 @@
+{
+  "sass" : {
+    "concat" : [
+      "build/sass/variables.scss",
+      "node_modules/bootstrap/scss/bootstrap.scss",
+      "node_modules/font-awesome/css/font-awesome.css",
+      "build/sass/base/mixins.scss",
+      "build/sass/base/base.scss",
+      "build/sass/base/typography.scss",
+      "build/sass/layout/*.scss",
+      "build/sass/module/**/*.scss",
+      "build/sass/utilities/**/*.scss"
+    ]
+  },
+  "javascript" : {
+    "concat" : {
+      "vendor" : [
+        "node_modules/jquery/dist/jquery.js",
+        "node_modules/bootstrap/dist/js/bootstrap.js"
+      ],
+      "third_party": [
+        "build/third_party/js/**/*.js"
+      ],
+      "custom": [
+        "build/js/modules/**/*.js"
+      ]
+    },
+    "dependencies": [
+      ".resources/js/concat/vendor.js",
+      ".resources/js/concat/third_party.js",
+      ".resources/js/concat/custom.js"
+    ]
+  }
+}

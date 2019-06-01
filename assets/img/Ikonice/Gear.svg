@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="479 7609.705 186.563 186.563">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5d9b43;
+      }
+    </style>
+  </defs>
+  <g id="Group_16" data-name="Group 16" transform="translate(-5630.134 2416)">
+    <path id="Subtraction_1" data-name="Subtraction 1" class="cls-1" d="M66.754,133.507a66.442,66.442,0,0,1-37.323-11.4A66.949,66.949,0,0,1,5.246,92.737,66.666,66.666,0,0,1,11.4,29.431,66.948,66.948,0,0,1,40.77,5.246,66.666,66.666,0,0,1,104.076,11.4a66.948,66.948,0,0,1,24.185,29.37,66.665,66.665,0,0,1-6.155,63.306,66.949,66.949,0,0,1-29.37,24.185A66.335,66.335,0,0,1,66.754,133.507Zm0-97.173A30.419,30.419,0,1,0,97.173,66.754,30.454,30.454,0,0,0,66.754,36.334Z" transform="translate(6136.06 5220.148)"/>
+    <path id="Union_2" data-name="Union 2" class="cls-1" d="M20.935,31.086V0H32.811l9.06,31.086ZM0,31.086,9.06,0H20.935V31.086Z" transform="translate(6181.479 5193.705)"/>
+    <path id="Union_3" data-name="Union 3" class="cls-1" d="M20.935,31.086V0H32.811l9.06,31.086ZM0,31.086,9.06,0H20.935V31.086Z" transform="translate(6223.351 5380.268) rotate(180)"/>
+    <path id="Union_4" data-name="Union 4" class="cls-1" d="M20.935,31.086V0H32.811l9.06,31.086ZM0,31.086,9.06,0H20.935V31.086Z" transform="translate(6295.696 5266.051) rotate(90)"/>
+    <path id="Union_5" data-name="Union 5" class="cls-1" d="M20.935,31.086V0H32.811l9.06,31.086ZM0,31.086,9.06,0H20.935V31.086Z" transform="translate(6109.134 5307.922) rotate(-90)"/>
+    <path id="Union_6" data-name="Union 6" class="cls-1" d="M20.935,31.086V0H32.811l9.06,31.086ZM0,31.086,9.06,0H20.935V31.086Z" transform="translate(6283.178 5338.143) rotate(135)"/>
+    <path id="Union_7" data-name="Union 7" class="cls-1" d="M20.935,31.086V0H32.811l9.06,31.086ZM0,31.086,9.06,0H20.935V31.086Z" transform="translate(6121.652 5235.83) rotate(-45)"/>
+    <path id="Union_8" data-name="Union 8" class="cls-1" d="M20.935,31.086V0H32.811l9.06,31.086ZM0,31.086,9.06,0H20.935V31.086Z" transform="translate(6151.259 5367.75) rotate(-135)"/>
+    <path id="Union_9" data-name="Union 9" class="cls-1" d="M20.935,31.086V0H32.811l9.06,31.086ZM0,31.086,9.06,0H20.935V31.086Z" transform="translate(6253.571 5206.223) rotate(45)"/>
+  </g>
+</svg>

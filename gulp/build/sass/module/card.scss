@@ -1,0 +1,21 @@
+.cards-section {
+
+	.card {
+		background-color: #E7EEDF;
+		border-radius: 10px;
+		padding: 70px 13px 30px;
+		box-shadow: 0 3px 6px #eee;
+		text-align: center;
+		border: none;
+	}
+	.card-img-top {
+		margin: 0 auto;
+		max-width: 60px;
+	}
+}
+
+.owl::before {
+	
+	content: url(assets/img/Ikonice/Animals/Prostirka/Parrow.svg);
+
+}
